@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+     <title>Home</title>
+<meta name=”description” content=”The personal website of Anish Mariathasan. Information and contact details for Anish Mariathasan.”>
+
+<meta name=”keywords” content=”Anish, Mariathasan, Squashed Orange, developer, games, Anish Mariathasan, biomedical engineer, surgical robotics, A-Level” />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+</style>
+<body>
+<style>
+body {
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #4a4a4a;
+  background: #d9d9d9;
+}
+     </style>
+</body>
+<style>
+.topnav {
+  overflow: hidden;
+  background-color: #4e4652;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #f9b233;
+  color: white;
+}
+     </style>
+</head>
+
+
+
+<div class="topnav">
+  <a class="active" href="home"><b>Home</b></a>
+  <a href="squashedorange"><a href="{{ url_for('so_thing') }}">Squashed Orange</a>
+  <a href="contact"><a href="{{ url_for('contact_thing') }}">Contact me</a>
+  <a href="about"><a href="{{ url_for('about_thing') }}">About</a>
+</div>
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>NOTE FROM ANISH:</strong> This website is in the process of being updated, revamped and will actually get some content on it ;) Come back soon!
+</div>
+<body>  
+   <!-- <link rel="shortcut icon" href="https://photos.google.com/album/AF1QipOhFgFY7bNgYa12YIY7xk4Scrai2acaMRHKORXM/photo/AF1QipNjJ331yL-Ipza2GxeJPawOxMK7H1TjwBpLYqMI" type="image/x-icon"/>-->
+    
+   <p> This is the personal website of Anish Mariathasan, currently a student. Interested in biomedical engineering and the biotech industry, and has written about Surgical Robotics.
+      Also, I have developed apps and games, see the <a href="{{ url_for('so_thing') }}">Squashed Orange page.</a> </p>
+         <!--<iframe height="400px" width="100%" src="https://repl.it/repls/BewitchedAshamedDivisor?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe> -->
+     
+     <!-- <p><a href="{{ url_for('annoy_thing') }}">Want a discount?</a></p>
+      <p><a href="{{ url_for('blog_thing') }}">Blog, opinions and other stuff</a></p> 
+      <p><a href="{{ url_for('contact_thing') }}">Contact me</a></p>
+      <p><a href="{{ url_for('about_thing') }}">About</a></p>-->
+      <!--<p><a href="{{ url_for('fun_thing') }}">Play this fun 'game'</a></p> -->
+      <!--<a href="https://internetdefenseleague.org"><img src="https://internetdefenseleague.org/images/badges/final/shield_badge.png" alt="Member of The Internet Defense League"/></a> --->
+        
+
+                                                                      
+ <!--- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfNxsfSDPW0d5AHxHk37FUMarU0huDUbKq0UMJdADya3w69yQ/viewform?embedded=true" width="700" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  <iframe width="373.5" height="278" src="https://www.youtube.com/embed/Awf45u6zrP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  --->
+     <!-- <script type="text/javascript">
+  window._idl = {};
+  _idl.variant = "modal";
+  (function() {
+      var idl = document.createElement('script');
+      idl.async = true;
+      idl.src = 'https://members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
+      document.getElementsByTagName('body')[0].appendChild(idl);
+  })();
+  </script> --->
+</body>
+</html>
+
